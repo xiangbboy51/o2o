@@ -20,7 +20,7 @@ public class Product {
     private BigDecimal discountPrice;
     private Integer priority;
     private Integer enableStatus;
-    private Date creatTime;
+    private Date createTime;
     private Date lastEditTime;
     private List<ProductImg> productImgList;
     private ProductCategory productCategory;

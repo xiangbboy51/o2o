@@ -1,5 +1,6 @@
 package com.atom.o2o.entity;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.Date;
@@ -9,6 +10,7 @@ import java.util.Date;
  * Date: 2020/6/12 22:47
  */
 @Data
+@Builder
 public class ShopCategory {
     private Long shopCategoryId;
     private String shopCategoryName;

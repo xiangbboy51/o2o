@@ -1,6 +1,9 @@
 package com.atom.o2o.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
@@ -9,6 +12,7 @@ import java.util.Date;
  * Date: 2020/6/12 23:42
  */
 @Data
+@Builder
 public class Shop {
     private Long shopId;
     private String shopName;

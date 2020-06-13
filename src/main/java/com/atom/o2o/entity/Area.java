@@ -1,5 +1,6 @@
 package com.atom.o2o.entity;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.Date;
@@ -9,6 +10,7 @@ import java.util.Date;
  * Date: 2020/6/12 20:36
  */
 @Data
+@Builder
 public class Area {
     private Integer areaId;
     private String areaName;
